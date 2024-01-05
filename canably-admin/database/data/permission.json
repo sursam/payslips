@@ -1,0 +1,227 @@
+{
+    "permissions":[
+        {
+            "name" : "View Dashboard"
+        },
+        {
+            "name" : "Add Customer"
+        },
+        {
+            "name" : "Edit Customer"
+        },
+        {
+            "name" : "Delete Customer"
+        },
+        {
+            "name" : "View Customer"
+        },
+        {
+            "name" : "Add Seller"
+        },
+        {
+            "name" : "Edit Seller"
+        },
+        {
+            "name" : "View Seller"
+        },
+        {
+            "name" : "Delete Seller"
+        },
+        {
+            "name" : "Add Delivery Agent"
+        },
+        {
+            "name" : "Edit Delivery Agent"
+        },
+        {
+            "name" : "Delete Delivery Agent"
+        },
+        {
+            "name" : "View Delivery Agent"
+        },
+        {
+            "name" : "Add Pages"
+        },
+        {
+            "name" : "Edit Pages"
+        },
+        {
+            "name" : "View Pages"
+        },
+        {
+            "name" : "Delete Pages"
+        },
+        {
+            "name" : "Add Banners"
+        },
+        {
+            "name" : "Edit Banners"
+        },
+        {
+            "name" : "View Banners"
+        },
+        {
+            "name" : "Delete Banners"
+        },
+        {
+            "name" : "Add Category"
+        },
+        {
+            "name" : "Edit Category"
+        },
+        {
+            "name" : "View Category"
+        },
+        {
+            "name" : "Delete Category"
+        },
+        {
+            "name" : "Add Brand"
+        },
+        {
+            "name" : "Edit Brand"
+        },
+        {
+            "name" : "View Brand"
+        },
+        {
+            "name" : "Delete Brand"
+        },
+        {
+            "name" : "Add Product"
+        },
+        {
+            "name" : "Edit Product"
+        },
+        {
+            "name" : "View Product"
+        },
+        {
+            "name" : "Delete Product"
+        },
+        {
+            "name" : "Add Attribute"
+        },
+        {
+            "name" : "Edit Attribute"
+        },
+        {
+            "name" : "View Attribute"
+        },
+        {
+            "name" : "Delete Attribute"
+        },
+        {
+            "name" : "Add Stock"
+        },
+        {
+            "name" : "Edit Stock"
+        },
+        {
+            "name" : "View Stock"
+        },
+        {
+            "name" : "Delete Stock"
+        },
+        {
+            "name" : "Add Order"
+        },
+        {
+            "name" : "Edit Order"
+        },
+        {
+            "name" : "Delete Order"
+        },
+        {
+            "name" : "View Order"
+        },
+        {
+            "name" : "View Delivery"
+        },
+        {
+            "name" : "Edit Delivery"
+        },
+        {
+            "name" : "Add Coupon"
+        },
+        {
+            "name" : "Edit Coupon"
+        },
+        {
+            "name" : "View Coupon"
+        },
+        {
+            "name" : "Delete Coupon"
+        },
+        {
+            "name" : "Add Menu"
+        },
+        {
+            "name" : "Edit Menu"
+        },
+        {
+            "name" : "View Menu"
+        },
+        {
+            "name" : "Delete Menu"
+        },
+        {
+            "name" : "Add Blog"
+        },
+        {
+            "name" : "Edit Blog"
+        },
+        {
+            "name" : "View Blog"
+        },
+        {
+            "name" : "Delete Blog"
+        },
+        {
+            "name" : "Add Content"
+        },
+        {
+            "name" : "Edit Content"
+        },
+        {
+            "name" : "View Content"
+        },
+
+        {
+            "name" : "Add Faq"
+        },
+        {
+            "name" : "Edit Faq"
+        },
+        {
+            "name" : "View Faq"
+        },
+        {
+            "name" : "Delete Faq"
+        },
+        {
+            "name" : "Add Testimonial"
+        },
+        {
+            "name" : "Edit Testimonial"
+        },
+        {
+            "name" : "View Testimonial"
+        },
+        {
+            "name" : "Delete Testimonial"
+        },
+        {
+            "name" : "Add Store Location"
+        },
+        {
+            "name" : "Edit Store Location"
+        },
+        {
+            "name" : "View Store Location"
+        },
+        {
+            "name" : "Delete Store Location"
+        }
+    ]
+}

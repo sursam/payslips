@@ -1,0 +1,39 @@
+.rating_area {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+}
+
+.rating_area .gray_rating {
+    height: 16px;
+}
+
+.rating_area .gray_rating::before {
+    display: inline-block;
+    vertical-align: top;
+    font: normal normal normal 18px/1 "Font Awesome 5 Free";
+    content: "\F005\F005\F005\F005\F005";
+    color: #dbc411;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+.rating_area .filled_rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 16px;
+}
+
+.rating_area .filled_rating::before {
+    display: inline-block;
+    vertical-align: top;
+    font: normal normal normal 18px/1 "Font Awesome 5 Free";
+    content: "\F005\F005\F005\F005\F005";
+    color: #dbc411;
+    letter-spacing: 1px;
+    font-weight: 900;
+}

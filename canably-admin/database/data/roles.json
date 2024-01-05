@@ -1,0 +1,44 @@
+{
+    "roles":[
+        {
+            "name" : "Super Admin",
+            "short_code" : "SAD",
+            "role_type" : "admin"
+        },
+        {
+            "name" : "Sub Admin",
+            "short_code" : "SUAD",
+            "role_type" : "admin"
+        },
+        {
+            "name" : "Admin",
+            "short_code" : "AD",
+            "role_type" : "admin"
+        },
+        {
+            "name" : "Store Manager",
+            "short_code" : "SM",
+            "role_type" : "admin"
+        },
+        {
+            "name" : "Order Manager",
+            "short_code" : "OM",
+            "role_type" : "admin"
+        },
+        {
+            "name" : "Data Entry Operator",
+            "short_code" : "DEO",
+            "role_type" : "employee"
+        },
+        {
+            "name" : "Seller",
+            "short_code" : "SLR",
+            "role_type" : "seller"
+        },
+        {
+            "name" : "Customer",
+            "short_code" : "CUS",
+            "role_type" : "customer"
+        }
+    ]
+}
