@@ -1,0 +1,44 @@
+
+
+git pull origin master
+
+enter the app password
+
+touch .env
+
+nano .env
+
+copy paste it from the local and change it accordingly
+
+ctrl+x & ctrl+s
+
+composer update
+
+npm i && npm run prod
+
+php artisan storage:link
+
+php artisan migrate:fresh --seed
+
+sudo chgrp -R www-data storage bootstrap/cache
+
+sudo chmod -R ug+rwx storage bootstrap/cache
+
+php artisan optimize:clear
+
+it gives error like please provide valid cache path then only do the following
+
+mkdir storage/framework/sessions
+
+mkdir storage/framework/views
+
+mkdir storage/framework/cache
+
+if any error persist like "laravel log cant be opened in append mode" then do the following
+
+sudo chown -R $USER:www-data storage
+
+
+
+cp resources/assets public/assets
+

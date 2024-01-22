@@ -1,0 +1,95 @@
+1 ) create a branch from master and switch to the branch (git checkout -b features/the-work-you-will-be working)
+
+2) run following commands before starting any work
+
+2.1) composer update (if informed)
+
+2.2) npm run dev
+
+
+3) once your work is done
+
+git add . && git commit -m "proper commit message" && git push origin branch-name
+
+ 
+
+4) VVIP
+
+before merging to master
+
+4.1) git checkout master
+
+4.2) git pull origin master
+
+4.3) git checkout branch (that u want to merge)
+
+4.4) git rebase -i master
+
+4.5) if rebase unsuccessful
+
+fix the conflicts
+
+then
+
+4.5.1) git add .
+
+4.5.2) git rebase --continue
+
+4.6 ) git checkout master
+
+4.7 ) git merge --no-ff branch(the branch u want to merge)
+
+4.8) git push origin master
+
+delete branch
+git branch -d branch-name
+git push --delete origin branch-name
+
+Create new branch
+git checkout -b new-branch-name
+
+npm run watch
+php artisan all
+
+php artisan migrate:fresh --seed
+
+php artisan make:migration add_image_to_categories_table --table=categories
+
+php artisan make:migration add_postcode_to_user_enquiries_table --table=user_enquiries
+php artisan make:migration add_coordinates_to_zones_table --table=zones
+
+php artisan db:seed
+php artisan db:seed --class=User/PermissionSeeder
+
+php artisan storage:link
+
+php artisan serve --port=8001
+
+
+php artisan make:migration alter_table_[yourtablenamehere]_change_[somecolumnname] --table=[yourtablenamehere]
+php artisan make:migration alter_columns_in_companies_table --table=companies
+
+php artisan passport:install
+
+php artisan make:migration create_wallets_table
+
+php artisan migrate:rollback
+
+
+Putty Login
+UserName	pms_developer
+Passwrod	Pm5@!#sft2023
+cd /var/www/html/daride/
+git pull origin master
+App Password: ATBBTUVa7KhYJmYgFfLUMBhWAkDu77441380
+php artisan migrate
+npm run prod (If css and js changed)
+
+
+php artisan refresh
+
+
+SET GLOBAL FOREIGN_KEY_CHECKS=0;
+
+
+php artisan make:model Settings --migration
