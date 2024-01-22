@@ -1,0 +1,16 @@
+{
+    "roles":[
+        {
+            "name" : "Super Admin"
+        },
+        {
+            "name" : "Admin"
+        },
+        {
+            "name" : "Patient"
+        },
+        {
+            "name" : "Doctor"
+        }
+    ]
+}

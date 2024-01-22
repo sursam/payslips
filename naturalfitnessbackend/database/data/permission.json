@@ -1,0 +1,55 @@
+{
+    "permissions":[
+        {
+            "name" : "View Dashboard"
+        },
+        {
+            "name" : "Add User"
+        },
+        {
+            "name" : "Edit User"
+        },
+        {
+            "name" : "View User"
+        },
+        {
+            "name" : "Delete User"
+        },
+        {
+            "name" : "Add Menu"
+        },
+        {
+            "name" : "Edit Menu"
+        },
+        {
+            "name" : "View Menu"
+        },
+        {
+            "name" : "Delete Menu"
+        },
+        {
+            "name" : "Add Page"
+        },
+        {
+            "name" : "Edit Page"
+        },
+        {
+            "name" : "View Page"
+        },
+        {
+            "name" : "Delete Page"
+        },
+        {
+            "name" : "Add Vehicle"
+        },
+        {
+            "name" : "Edit Vehicle"
+        },
+        {
+            "name" : "View Vehicle"
+        },
+        {
+            "name" : "Delete Vehicle"
+        }
+    ]
+}

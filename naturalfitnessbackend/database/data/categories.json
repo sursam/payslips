@@ -1,0 +1,50 @@
+{
+    "categories": [
+        {
+            "name": "Auto",
+            "slug": "auto",
+            "description": "",
+            "type": "vehicle"
+        },
+        {
+            "name": "Bike",
+            "slug": "bike",
+            "description": "",
+            "type": "vehicle"
+        },
+        {
+            "name": "Truck",
+            "slug": "truck",
+            "description": "",
+            "type": "vehicle"
+        },
+        {
+            "name": "Three Wheeler",
+            "slug": "three-wheeler",
+            "description": "",
+            "type": "vehicle",
+            "parent_id": 3
+        },
+        {
+            "name": "Four Wheeler Mini",
+            "slug": "four-wheeler-mini",
+            "description": "",
+            "type": "vehicle",
+            "parent_id": 3
+        },
+        {
+            "name": "Pickup",
+            "slug": "pickup",
+            "description": "",
+            "type": "vehicle",
+            "parent_id": 3
+        },
+        {
+            "name": "Mini Container",
+            "slug": "mini-container",
+            "description": "",
+            "type": "vehicle",
+            "parent_id": 3
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+/* large Desktop */
+@media only screen and (min-width: 1550px) {}
+
+/* desktop 1200px to 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+
+/* normal desktop */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* all desktop view */
+@media only screen and (max-width: 992px) {
+    .congrts_sec {
+        margin: 5% auto;
+        width: 100%;
+        text-align: center;
+    }
+  
+}
+
+/* tablet view */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-bar-logo {
+        width: 150px;
+        height: 100%;
+        margin: 0px;
+    }
+    .right_nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .down-img {
+        position: absolute;
+        bottom: -35px;
+    }
+    .left-img {
+        position: absolute;
+        left: -5%;
+        top: 60px;
+        width: 350px;
+        -webkit-animation: animateleftimg 10s linear infinite;
+        -moz-animation: animateleftimg 10s linear infinite;
+        animation: animateleftimg 10s linear infinite;
+        -webkit-transform: scale(0.65);
+        -moz-transform: scale(0.65);
+        transform: scale(0.65);
+    }
+    .right-img {
+        position: absolute;
+        right: -5%;
+        width: 300px;
+        top: 0;
+        -webkit-animation: animaterightimg 10s linear infinite;
+        -moz-animation: animaterightimg 10s linear infinite;
+        animation: animaterightimg 10s linear infinite;
+        -webkit-transform: scale(0.65);
+        -moz-transform: scale(0.65);
+        transform: scale(0.65);
+    }
+    .qus_grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 280px);
+    }
+    .btn-continue {
+        position: absolute;
+        right: 16%;
+        bottom: 45px;
+    }
+    .actively_sbox {
+        margin: 40px 0 0 50px;
+        position: relative;
+    }
+    .herocon-text {
+        width: 58%;
+        margin: auto;
+        margin-top: 120px;
+    }
+    element.style {
+        padding: 15px 0px;
+    }
+}
+
+
+/* mobile view */
+@media only screen and (max-width: 767px) {
+    .registration_form {
+        width: 90%;
+        margin: 45px auto;
+    }
+    .qus_optionbox {
+        margin-bottom: 85px;
+    }
+    .qus_sec {
+        padding: 36px 15px;
+    }
+    .herocon-text p {
+        padding: 15px 0px;
+    }
+    .down-img {
+        position: absolute;
+        bottom: 15px;
+    }
+    .left-img {
+        position: absolute;
+        left: 20%;
+        top: 77px;
+        width: 170px;
+        -webkit-animation: animateleftimg 10s linear infinite;
+        -moz-animation: animateleftimg 10s linear infinite;
+        animation: animateleftimg 10s linear infinite;
+        -webkit-transform: scale(0.65);
+        -moz-transform: scale(0.65);
+        transform: scale(0.65);
+    }
+    .right-img {
+        position: absolute;
+        right: -8%;
+        width: 170px;
+        top: 25px;
+        -webkit-animation: animaterightimg 10s linear infinite;
+        -moz-animation: animaterightimg 10s linear infinite;
+        animation: animaterightimg 10s linear infinite;
+        -webkit-transform: scale(0.65);
+        -moz-transform: scale(0.65);
+        transform: scale(0.65);
+    }
+    .member_img {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .member_con {
+        padding: 40px 25px;
+        padding-bottom: 0px;
+    }
+    .actively_sbox {
+        margin: 40px 0 0 20px;
+        position: relative;
+    }
+    .sharedb_singlefour {
+        top: 59%;
+        right: 50%;
+    }
+    .sharedb_singlethree {
+        top: 24%;
+        right: 34%;
+    }
+    .sharedb_singletwo {
+        top: 10%;
+        left: 17%;
+    }
+    .sharedb_singleone {
+        top: 40%;
+        left: 2%;
+    }
+    .abouts_left p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        width: 91%;
+        color: #dbdbdb;
+    }
+    .nav-bar .col-sm-6{
+        width: 50%;
+    }
+    .herocon-text {
+        width: 65%;
+        margin-top: 120px;
+    }
+    .btn-continue {
+        position: absolute;
+        right: 4%;
+        bottom: 35px;
+    }
+    .img-center {
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+   .area_head {
+        text-align: center;
+        font-size: 16px;
+    }
+    .qus_grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 280px);
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .login-form {
+        background: #E9F6FF 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        width: 100%;
+        padding: 80px 15px 10px 15px;
+        margin: 15px 0px 0px 0px;
+    }
+    .login-form p {
+        letter-spacing: 0px;
+        color: #55696D;
+        display: flex;
+        font-size: 13px;
+        gap: 20px;
+    }
+}
+
+
+
+/* small mobile view */
+@media only screen and (max-width: 360px) {
+
+}

@@ -1,0 +1,22 @@
+{
+    "modes":[
+        {
+            "name" : "Cash On Delivery"
+        },
+        {
+            "name" : "UPI"
+        },
+        {
+            "name" : "Net Banking"
+        },
+        {
+            "name" : "Card"
+        },
+        {
+            "name" : "Google Pay"
+        },
+        {
+            "name" : "Phonepe"
+        }
+    ]
+}

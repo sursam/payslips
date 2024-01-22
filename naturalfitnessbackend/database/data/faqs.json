@@ -1,0 +1,14 @@
+{
+    "faqs": {
+        "General": [
+            {
+                "question": "Test question1?",
+                "answer": "<p>Test answer1.</p>"
+            },
+            {
+                "question": "Test question2?",
+                "answer": "<p>Test answer2.</p>"
+            }
+        ]
+    }
+}
